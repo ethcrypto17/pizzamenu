@@ -1,0 +1,25 @@
+<div *ngFor="let pizza of pizzas">
+    <h2>{{ pizza.name }} - €{{ pizza.price }}</h2>
+    <p>{{ pizza.ingredients.join(', ') }}</p>
+  <img *ngIf="pizza.picUrl" [src]="pizza.picUrl" [alt]="pizza.name" style="width: 100px; height: auto;">
+</div>
+<h2>Add a new pizza</h2>
+<form [formGroup]="pizzaForm" (ngSubmit)="addPizza()">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name" required>
+  </div>
+  <div>
+    <label for="price">Price:</label>
+    <input type="number" id="price" formControlName="price" required>
+  </div>
+  <div>
+    <label for="ingredients">Ingredients:</label>
+    <input type="text" id="ingredients" formControlName="ingredients" required>
+  </div>
+  <div>
+    <label for="picUrl">Image URL:</label>
+    <input type="text" id="picUrl" formControlName="picUrl">
+  </div>  
+  <button type="submit" [disabled]="!pizzaForm.valid">Add Pizza</button>
+</form>
