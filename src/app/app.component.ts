@@ -17,25 +17,7 @@ export class AppComponent implements OnInit {
     this.pizzaService.getPizzas().subscribe(data => {
       this.pizzas = data;
     });
-
-    this.pizzaForm = this.fb.group({
-      name: ['', Validators.required],
-      price: ['', [Validators.required, Validators.min(0)]],
-      ingredients: ['', Validators.required],
-      picUrl: ['']
-    });    
   }
 
-  addPizza() {
-    if (this.pizzaForm.valid) {
-      const newPizza = {
-        name: this.pizzaForm.value.name,
-        price: this.pizzaForm.value.price,
-        ingredients: this.pizzaForm.value.ingredients.split(',').map(i => i.trim()),
-        picUrl: this.pizzaForm.value.picUrl
-      };
-      this.pizzas.push(newPizza); 
-      this.pizzaForm.reset();
-    }
-  }  
+
 }

@@ -12,63 +12,64 @@
         "name": "Pepperoni",
         "ingredients": ["tomato sauce", "mozzarella cheese", "pepperoni"],
         "price": 9.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
+
       },
       {
         "id": 3,
         "name": "Hawaiian",
         "ingredients": ["tomato sauce", "mozzarella cheese", "ham", "pineapple"],
         "price": 10.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       },
       {
         "id": 4,
         "name": "Veggie",
         "ingredients": ["tomato sauce", "mozzarella cheese", "mushrooms", "bell peppers", "onions", "black olives"],
         "price": 9.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       },
       {
         "id": 5,
         "name": "BBQ Chicken",
         "ingredients": ["BBQ sauce", "mozzarella cheese", "chicken", "red onions", "cilantro"],
         "price": 11.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       },
       {
         "id": 6,
         "name": "Buffalo Chicken",
         "ingredients": ["buffalo sauce", "mozzarella cheese", "chicken", "red onions"],
         "price": 11.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       },
       {
         "id": 7,
         "name": "Meat Lover's",
         "ingredients": ["tomato sauce", "mozzarella cheese", "pepperoni", "sausage", "beef", "ham", "bacon"],
         "price": 12.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       },
       {
         "id": 8,
         "name": "Supreme",
         "ingredients": ["tomato sauce", "mozzarella cheese", "pepperoni", "sausage", "bell peppers", "mushrooms", "onions"],
         "price": 12.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       },
       {
         "id": 9,
         "name": "Spinach & Feta",
         "ingredients": ["cream sauce", "mozzarella cheese", "spinach", "feta cheese"],
         "price": 10.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       },
       {
         "id": 10,
         "name": "Four Cheese",
         "ingredients": ["tomato sauce", "mozzarella cheese", "parmesan cheese", "gorgonzola cheese", "feta cheese"],
         "price": 9.99,
-        "picUrl": ""
+        "picUrl": "assets/img-pizza/download.jpg"
       }
     ]
   }
